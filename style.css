@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(241, 237, 222);
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000px;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(65, 130, 173);
+    overflow: hidden;
+
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: rgb(240, 149, 148);
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family:initial;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.paragrafo{
+    color: rgb(241, 237, 222);
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.titulos{
+    color: rgb(234, 41, 70);
+
+}
+
+.subtitulo{
+    color: rgb(240, 149, 148);
+}
+
+
+#home{
+    padding-top: 50px;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards{
+    background-color: rgb(16, 112, 175);
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+
+}
+
+.imagem{
+    border-style: solid;
+    border-color: rgb(240, 149, 148);
+    border-radius: 2px;
+}
+
+.texto {
+    color: rgb(234, 41, 70);
+}
+
+.imgnav {
+    float: right;
+}
+
+footer{
+    background-color: rgb(65, 130, 173);
+    color: rgb(240, 149, 148);
+    text-decoration: none;
+}
